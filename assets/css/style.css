@@ -265,6 +265,8 @@ footer {
 
 /* media queries */
 
+/* for larger to meduim screens size from 1200px wide and down */
+
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -294,6 +296,13 @@ footer {
 
     hr {
         display: none;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
 }
 
@@ -330,5 +339,15 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #fotos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #fotos {
+        column-count: 2;
     }
 }
